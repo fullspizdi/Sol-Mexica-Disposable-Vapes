@@ -1,0 +1,22 @@
+{
+  "project": "Sol Mexica Disposable Vapes Whitepaper",
+  "document_settings": {
+    "title": "Technical Whitepaper for Sol Mexica Disposable Vapes",
+    "author": "Sol Mexica Team",
+    "output_format": "PDF"
+  },
+  "files": {
+    "specifications": "specifications.json",
+    "features": "features.json",
+    "whitepaper": "whitepaper.md"
+  },
+  "pdf_generation": {
+    "script": "build_pdf.py",
+    "output_file": "Sol_Mexica_Whitepaper.pdf"
+  },
+  "data_generation": {
+    "script": "generate_document.py",
+    "input_files": ["specifications.json", "features.json"],
+    "output_file": "whitepaper.md"
+  }
+}

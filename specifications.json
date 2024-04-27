@@ -1,0 +1,30 @@
+{
+  "models": [
+    {
+      "model": "Compacto",
+      "battery_capacity_mAh": 550,
+      "puff_count": 3000,
+      "nicotine_levels_mg_per_mL": ["0", "3", "6"],
+      "e_liquid_capacity_mL": 2
+    },
+    {
+      "model": "Mediano",
+      "battery_capacity_mAh": 850,
+      "puff_count": 5000,
+      "nicotine_levels_mg_per_mL": ["0", "3", "6"],
+      "e_liquid_capacity_mL": 3
+    },
+    {
+      "model": "Grande",
+      "battery_capacity_mAh": 1200,
+      "puff_count": 8000,
+      "nicotine_levels_mg_per_mL": ["0", "3", "6"],
+      "e_liquid_capacity_mL": 5
+    }
+  ],
+  "flavor_profiles": [
+    "Mexican Mango",
+    "Churro Cream",
+    "Spicy Margarita"
+  ]
+}
